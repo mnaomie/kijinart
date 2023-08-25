@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: white;
+    --primary-dark: grey;
+    --warning: #ea2027;
+    --success: #009432;
+    --font-family: 'Playfair', sans-serif;
+    --font-size-small: 15px; 
+    --font-size-regular: 16px;
+    --font-weight-regular: 400;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --box-shadow: 0 1px 5px 0 rgb(60 64 67 / 50%), 0 1px 2px 1px rgb(60 64 67 / 30%);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5 {
+    color: black;
+    font-family: var(--font-family);
+}
+
+/*test body pour voir la barre*/
+
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 17%;
+    height: 100vh;
+    background-color: white;
+    border-right: 1px solid grey;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sidebar-logo img {
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.sidebar-title {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.sidebar-title h1 {
+    
+    font-family: var(--font-family);
+    text-align: center;
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+
+.sidebar-title .top {
+    margin-bottom: -2rem;
+}
+
+.sidebar-title h1 span {
+    font-size: 4.5rem;
+}
+
+.sidebar-menu {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+}
+
+.menu {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu li {
+    
+    width: 100%;
+    flex-grow: 1;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: rgba(199, 167, 196, 0.658);
+}
+
+.container {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.copyright {
+    margin-top: auto;
+    padding: 20px;
+    font-size: 12px;
+    color: #333;
+}
+
+.copyright-text {
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+/* HOME  */
+
+/* ART GALLERY */
+
+/* CONTACT  */
+
+/* SHOP */

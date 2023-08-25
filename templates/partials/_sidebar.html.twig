@@ -1,0 +1,24 @@
+<div class="sidebar">
+    {# Tout ce qui va être dans la side bar est là, pense à y mettre les path dans le href en suivant l'exemple du logo #}
+    <div class="sidebar-logo">
+        <a href="{{ path('home')}}">
+            <img src="/images/logo.png" alt="">
+        </a>
+    </div>
+    <div class="sidebar-title">
+        <h1 class="top"><span>K</span>ijin</h1>
+        <h1 class="bottom"><span>A</span>rt</h1>
+    </div>
+    <div class="sidebar-menu">
+        <ul class="menu">
+            <li><a href="{{ path('about_me')}}">About me</a></li>
+            <li><a href="{{ path('art_gallery')}}">Art Gallery</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="{{ path('contact')}}">Contact</a></li>
+        </ul>
+    </div>
+    <div class="copyright">
+        
+        <p class="copyright-text"> @KijinArt, 2023 - {{ "now"|date("Y") }}. All rights reserved.</p>
+    </div>
+</div>
